@@ -1,4 +1,4 @@
 FROM ngnix:alpine
-COPY . /html
+COPY . /usr/share/nginx/html
 WORKDIR /app
 CMD ["app.html"]
